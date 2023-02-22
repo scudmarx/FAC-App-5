@@ -1,0 +1,48 @@
+body {
+    padding: 25px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+    box-shadow: 0 0 10px 5px grey inset;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+    opacity: 0.5;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.foe, .player, .abilities, .commentary {
+    padding: 1em
+}
+
+.trait {
+    background: lightpink;
+    padding: 7px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.ability {
+    background: aliceblue;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ability:hover {
+    background: white;
+}
